@@ -9,8 +9,8 @@ const Shipping = () => {
     return (
         <div className='pt-32 w-full flex flex-col items-center justify-center min-h-full'>
             <h1 className='font-bold text-2xl mb-4'>Shipping Details</h1>
-            <div className="flex w-[90%] gap-10 justify-between">
-                <div className="w-[60%] shadow-gray-700 shadow-md rounded-md">
+            <div className="flex flex-col md:flex-row w-full md:w-[90%] gap-10 justify-between">
+                <div className="w-full md:w-[60%] shadow-gray-700 shadow-md rounded-md">
                     <form className='flex flex-col justify-between gap-4 p-4 h-full '>
                         <div className="flex flex-col gap-4">
                             <h2 className='font-bold text-xl text-center mb-4'>Shipping Information</h2>
@@ -44,7 +44,7 @@ const Shipping = () => {
                         </div>
                     </form>
                 </div>
-                <div className="w-[20%] shadow-gray-700 shadow-md rounded-md h-fit flex flex-col justify-between gap-4 p-4">
+                <div className="w-full md:w-[20%] shadow-gray-700 shadow-md rounded-md h-fit flex flex-col justify-between gap-4 p-4">
                     <h1 className='font-bold text-xl text-center mb-4'>Your Order</h1>
                     <div className="flex flex-col gap-3">
                     {

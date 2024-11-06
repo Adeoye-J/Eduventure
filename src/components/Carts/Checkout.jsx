@@ -12,8 +12,8 @@ const Checkout = () => {
     return (
         <div className='pt-32 w-full flex flex-col items-center justify-center min-h-full'>
             <h1 className='font-bold text-2xl mb-4'>CheckOut Details</h1>
-            <div className="flex w-[90%] gap-10 justify-between">
-                <div className="w-[60%] shadow-gray-700 shadow-md rounded-md">
+            <div className="flex flex-col md:flex-row w-full md:w-[90%] gap-10 justify-between">
+                <div className="w-full md:w-[60%] shadow-gray-700 shadow-md rounded-md">
                     <div className="p-4 flex justify-between">
                         <div className="w-[150px] h-[150px]">
                             <img src={"/images/mastercard.png"} alt="mastercard logo" className='w-full h-full object-cover' />
@@ -48,7 +48,7 @@ const Checkout = () => {
                         <Link to={"/"}><button className='w-full min-w-40 bg-blue-700 rounded-md py-3 font-bold text-white text-lg'>CheckOut</button></Link>
                     </form>
                 </div>
-                <div className="w-[20%] shadow-gray-700 shadow-md rounded-md h-fit flex flex-col justify-between gap-4 p-4">
+                <div className="w-full md:w-[20%] shadow-gray-700 shadow-md rounded-md h-fit flex flex-col justify-between gap-4 p-4">
                     <h1 className='font-bold text-xl text-center mb-4'>Order Summary</h1>
                     <div className="flex flex-col gap-3">
                         <div className="flex justify-between items-center">

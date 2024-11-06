@@ -85,7 +85,7 @@ const ProductDetails = () => {
                     </div>
                 </div>
 
-                <div className="md:w-2/5 flex flex-col gap-8">
+                <div className="w-full md:w-2/5 flex flex-col gap-8">
                     <h2 className='text-3xl font-bold'>{productItem.title}</h2>
                     <p className='font-semibold text-xl'>Price: ${productItem.cost * value}</p>
                     <div className="flex gap-1 items-center">
@@ -105,7 +105,7 @@ const ProductDetails = () => {
                     </div>
                 </div>
 
-                <div className="md:w-1/5">
+                <div className="w-full md:w-1/5">
                     <h2 className='md:text-center text-left font-bold text-xl md:text-2xl mb-4 mt-4'>Product Owner</h2>
                     <div className="flex gap-2 items-center">
                         <div className="w-[70px] h-[70px]">
@@ -118,7 +118,7 @@ const ProductDetails = () => {
                     </div>
                 </div>
             </div>
-            <div className="mx-10 my-4 md:w-4/5">
+            <div className="mx-10 my-4 w-full md:w-4/5">
                 <h2 className='text-xl md:text-2xl text-center md:text-left font-bold mb-2'>Item Specification / Description</h2>
                 <p className='text-justify md:text-left text-gray-700 text-[16px] md:text-xl'>{productItem.description}</p>
             </div>
