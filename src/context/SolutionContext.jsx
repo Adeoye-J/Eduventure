@@ -166,12 +166,18 @@ export const SolutionProvider = ({ children }) => {
     const item = numCost[index]
     return item.count * item.cost
   }
-
+  
   const getTotalCost = () => {
     return numCost.reduce((total, item) => {
       return total + item.count * item.cost
     }, 0)
   }
+  
+  useEffect(() => {
+    getItemTotalCost()
+    getTotalCost()
+
+  }, [numCost, cartItems])
 
   // useEffect(() => {
   //   if (token) setLoggedIn(true);
