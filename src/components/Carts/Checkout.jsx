@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Checkout = () => {
 
-    const {getTotalCost} = useContext(SolutionContext)
+    const {getTotalCost, setCartItems} = useContext(SolutionContext)
 
     const shippingCost = 2000
     const overallCost = Number((getTotalCost()).toFixed(2)) + shippingCost

@@ -1,5 +1,5 @@
 // import axios from 'axios';
-import React, { createContext, useEffect, useState } from 'react'
+import React, { createContext, useEffect, useState, useMemo } from 'react'
 import data from "../data/productsdata.json"
 import {toast} from "react-toastify"
 // import {axios} from "axios";
@@ -162,6 +162,7 @@ export const SolutionProvider = ({ children }) => {
     })
   }
 
+  
   const getItemTotalCost = (index) => {
     const item = numCost[index]
     return item.count * item.cost
@@ -172,12 +173,18 @@ export const SolutionProvider = ({ children }) => {
       return total + item.count * item.cost
     }, 0)
   }
-  
-  useEffect(() => {
-    getItemTotalCost()
-    getTotalCost()
 
-  }, [numCost, cartItems])
+
+  // const getItemTotalCost = useMemo(() => {
+  //   return (index) => {
+  //     const item = numCost[index]
+  //     return item ? item.count * item.cost : 0
+  //   }
+  // }, [numCost])
+
+  // const getTotalCost = useMemo(() => {
+  //   return numCost.reduce((total, item) => total + item.count * item.cost, 0)
+  // }, [numCost])
 
   // useEffect(() => {
   //   if (token) setLoggedIn(true);

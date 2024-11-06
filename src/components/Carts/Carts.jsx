@@ -9,9 +9,11 @@ const Carts = () => {
 
   const {cartItems, handleRemoveFromCart, setProductItem, numCost, handleIncrement, handleDecrement, getItemTotalCost, getTotalCost} =useContext(SolutionContext)
 
+  console.log(getTotalCost);
+
   return (
   <div className='pt-32 flex flex-col items-center'>
-    <Link to={"/products"}><button>Back</button></Link>
+    <Link to={"/products"} className='mr-auto mx-16 px-4 h-[45px] bg-blue-800 border border-blue-800 text-white hover:bg-white hover:text-blue-800 flex items-center justify-center rounded-md transition-colors duration-300'><button>Back</button></Link>
     <h2 className='font-bold text-2xl w-[90%] text-center'>Shopping Cart</h2>
     <div className='w-full my-6 flex items-center justify-center'>
       <table className='w-[90%] border-collapse'>
