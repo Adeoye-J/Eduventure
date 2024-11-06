@@ -1,0 +1,80 @@
+{
+    "men": [
+        {
+            "heading" : "Tops",
+            "list_items": ["Hoodies and Sweatshirts", "Shirts", "T-shirts and Vests", "Polos"]
+        },
+        {
+            "heading" : "Formal Wears",
+            "list_items": ["Formal Pants", "Formal Shirts", "Jackets and Blazers"]
+        },
+        {
+            "heading" : "Accessories",
+            "list_items": ["Bags and Wallets", "Belts", "Eye and Head Wears", "Watches", "Ties and Cufflinks", "Socks and Underwear"]
+        },
+        {
+            "heading" : "Shoes",
+            "list_items": ["Boots", "Formal Shoes", "Sandals and Flipflops", "Slips on and Loafers", "Sneakers", "Trainers"]
+        },
+        {
+            "heading" : "Grooming",
+            "list_items": ["Fragrances", "Hair Care", "Skin Care"]
+        },
+        {
+            "heading" : "Sport",
+            "list_items": ["Sweatpants and Shorts", "T-Shorts", "Trainers", "Swimwear"]
+        }
+    ],
+    "women": [
+        {
+            "heading" : "Tops",
+            "list_items": ["Hoodies and Sweatshirts", "Shirts", "T-shirts and Vests", "Polos"]
+        },
+        {
+            "heading" : "Formal Wears",
+            "list_items": ["Formal Pants", "Formal Shirts", "Jackets and Blazers"]
+        },
+        {
+            "heading" : "Accessories",
+            "list_items": ["Bags and Wallets", "Belts", "Eye and Head Wears", "Watches", "Ties and Cufflinks", "Socks and Underwear"]
+        },
+        {
+            "heading" : "Shoes",
+            "list_items": ["Boots", "Formal Shoes", "Sandals and Flipflops", "Slips on and Loafers", "Sneakers", "Trainers"]
+        },
+        {
+            "heading" : "Grooming",
+            "list_items": ["Fragrances", "Hair Care", "Skin Care"]
+        },
+        {
+            "heading" : "Sport",
+            "list_items": ["Sweatpants and Shorts", "T-Shorts", "Trainers", "Swimwear"]
+        }
+    ],
+    "beauty": [
+        {
+            "heading" : "Tops",
+            "list_items": ["Hoodies and Sweatshirts", "Shirts", "T-shirts and Vests", "Polos"]
+        },
+        {
+            "heading" : "Formal Wears",
+            "list_items": ["Formal Pants", "Formal Shirts", "Jackets and Blazers"]
+        },
+        {
+            "heading" : "Accessories",
+            "list_items": ["Bags and Wallets", "Belts", "Eye and Head Wears", "Watches", "Ties and Cufflinks", "Socks and Underwear"]
+        },
+        {
+            "heading" : "Shoes",
+            "list_items": ["Boots", "Formal Shoes", "Sandals and Flipflops", "Slips on and Loafers", "Sneakers", "Trainers"]
+        },
+        {
+            "heading" : "Grooming",
+            "list_items": ["Fragrances", "Hair Care", "Skin Care"]
+        },
+        {
+            "heading" : "Sport",
+            "list_items": ["Sweatpants and Shorts", "T-Shorts", "Trainers", "Swimwear"]
+        }
+    ]
+}
